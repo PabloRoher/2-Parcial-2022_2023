@@ -16,9 +16,11 @@ La calificación máxima de esta parte tipo test es de 1 punto. Tenga en cuenta 
 
 b) La identidad, Los atributos que representan su estado y los métodos que representan su
 comportamiento.
+
 2) El hecho de que un método pueda recibir un número variable de atributos se denomina:
 
 b) Polimorfismo
+
 3) Imagine que la clase C hereda de la clase B. Y la clase B hereda de la clase A. Cuando se cree
 un objeto de la clase C, ¿cuál será la secuencia en que se ejecutarán los constructores?
 
