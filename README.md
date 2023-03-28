@@ -37,9 +37,29 @@ b) Se favorece la semántica y la reutilización de código en detrimento del re
 # Ejercicio 2 (0,5 punto): 5 minutos.
 ¿Cuáles son las características de la programación orientada a objetos?
 
+Las características principales de la programación orientada a objetos:
+
+Abstracción: simplificación de objetos y operaciones mediante la eliminación de detalles irrelevantes.
+
+Encapsulamiento: ocultamiento de la complejidad interna de un objeto y exposición de una interfaz que permita interactuar con él.
+
+Herencia: creación de nuevas clases a partir de clases existentes para reducir la duplicación de código y facilitar la creación de jerarquías de objetos.
+
+Polimorfismo: capacidad de objetos de una misma clase o de clases diferentes de responder de forma diferente a un mismo mensaje o método.
+
 # Ejercicio 3 (0.5 puntos): 5 minutos.
 ¿Qué es la visibilidad de una variable o un método? ¿Qué tipos hay? ¿Cuándo debe utilizarse cada
 tipo?
+
+La visibilidad en Java se refiere a la accesibilidad de un campo o método de una clase desde otras clases o paquetes. Hay cuatro tipos de visibilidad: public, protected, default y private.
+
+Public: los campos o métodos marcados como públicos pueden ser accedidos desde cualquier parte del programa.
+
+Protected: los campos o métodos marcados como protegidos pueden ser accedidos desde la misma clase, clases en el mismo paquete y clases que heredan de la clase en la que se encuentra el campo o método.
+
+Default: los campos o métodos sin ningún modificador de visibilidad pueden ser accedidos desde la misma clase y clases en el mismo paquete.
+
+Private: los campos o métodos marcados como privados solo pueden ser accedidos desde la misma clase en la que se encuentran.
 
 # Ejercicio 4 (3 puntos) Tiempo estimado: 60 minutos.
 El juego hundir la flota, conocido en el mundo anglosajón por su nombre en inglés battleship, es un
