@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4335503-ea39-4249-a10b-837a38887cec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CardinalPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a4335503-ea39-4249-a10b-837a38887cec" name="Changes" comment="second">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CardinalPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CardinalPoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ship.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,10 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/pablo/OneDrive/Escritorio/Tecnicas de programacion/Parcial2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -55,11 +62,26 @@
       <option name="presentableId" value="Default" />
       <updated>1680017296507</updated>
       <workItem from="1680024772357" duration="2202000" />
-      <workItem from="1680109444383" duration="20000" />
+      <workItem from="1680109444383" duration="5413000" />
+      <workItem from="1681049733253" duration="629000" />
+      <workItem from="1681119896186" duration="4778000" />
+      <workItem from="1681124945691" duration="3757000" />
     </task>
+    <task id="LOCAL-00001" summary="second">
+      <created>1680109485518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680109485519</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second" />
+    <option name="LAST_COMMIT_MESSAGE" value="second" />
   </component>
 </project>
