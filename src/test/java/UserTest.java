@@ -14,7 +14,9 @@ public class UserTest {
     public void userTest() {
 
         User user = new User(List.of(new Ship(3, new Point(1, 1), new Point(1, 3), CardinalPoint.NORTH), new Ship(3, new Point(3, 3), new Point(3, 5), CardinalPoint.NORTH)));
-        User user2 = new User(List.of(new Ship(3, new Point(1, 1), new Point(1, 3), CardinalPoint.NORTH), new Ship(3, new Point(3, 3), new Point(3, 5), CardinalPoint.NORTH)));
+        User user2 = new User(List.of(new Ship(3, new Point(1, 1), new Point(1, 3), CardinalPoint.NORTH), new Ship(3, new Point(3, 3), new Point(3, 5), CardinalPoint.NORTH),new Ship(3, new Point(1, 1), new Point(1, 3), CardinalPoint.NORTH)));
+        User user3 = new User(List.of());
+        User user4 = new User(List.of(new Ship(3, new Point(1, 1), new Point(1, 3), CardinalPoint.NORTH), new Ship(3, new Point(3, 3), new Point(3, 5), CardinalPoint.NORTH),new Ship(3, new Point(1, 1), new Point(1, 3), CardinalPoint.NORTH),new Ship(3, new Point(3, 3), new Point(3, 5), CardinalPoint.NORTH)));
 
         Assertions.assertTrue(user.attack(new Point(1, 1), user2));
         Assertions.assertTrue(user.attack(new Point(1, 2), user2));

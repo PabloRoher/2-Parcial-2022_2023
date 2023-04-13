@@ -10,38 +10,42 @@ public class Ship {
     private int hits;
     private CardinalPoint direction;
     public Ship(int size, Point start,Point end, CardinalPoint direction) {
-        if (size < 1 || size > 5) {
-            throw new IllegalArgumentException("Invalid ship size");
-        }
-        if (start == end){
-            this.size = size;
-            this.start = start;
-            this.end = end;
-            this.hits = 0;
-            this.direction = direction;
-        } else if (start.x == end.x && start.y <= end.y) {
-            if ((start.y - end.y) > size){
-                throw new IllegalArgumentException("Invalid ship");
-            }else {
+        try {
+            if (size < 1 || size > 5) {
+                throw new IllegalArgumentException("Tamaño del barco no valido");
+            }
+            if (start == end && size == 1) {
                 this.size = size;
                 this.start = start;
                 this.end = end;
                 this.hits = 0;
                 this.direction = direction;
-            }
+            } else if (start.x == end.x && start.y <= end.y) {
+                if ((end.y - start.y) > size || (end.y - start.y) < size) {
+                    throw new IllegalArgumentException("El tamaño del barco no coincide con la distancia entre los puntos");
+                } else {
+                    this.size = size;
+                    this.start = start;
+                    this.end = end;
+                    this.hits = 0;
+                    this.direction = direction;
+                }
 
-        } else if (start.y == end.y && start.x <= end.x) {
-            if ((start.x - end.x) > size){
-                throw new IllegalArgumentException("Invalid ship");
-            }else {
-                this.size = size;
-                this.start = start;
-                this.end = end;
-                this.hits = 0;
-                this.direction = direction;
+            } else if (start.y == end.y && start.x <= end.x) {
+                if ((end.x - start.x) > size || (end.x - start.x) < size) {
+                    throw new IllegalArgumentException("El tamaño del barco no coincide con la distancia entre los puntos");
+                } else {
+                    this.size = size;
+                    this.start = start;
+                    this.end = end;
+                    this.hits = 0;
+                    this.direction = direction;
+                }
+            } else {
+                throw new IllegalArgumentException("Barco no valido");
             }
-        } else {
-            throw new IllegalArgumentException("Invalid ship");
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
         }
     }
 
