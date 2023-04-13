@@ -132,7 +132,7 @@ creación de los atributos correspondientes para controlar esta casuística. La 
 atacado deberá ser modificada.
 Programe una clase Frigate. Este barco es mediano con un tamaño fijo (es decir, su tamaño va a ser
 igual a 3 posiciones del tablero).
-Programe una clase Canoe. Este barco es pequeño con un tamaño fijo (es decir, su tamaño va a ser
+Programe una clase org.example.Canoe. Este barco es pequeño con un tamaño fijo (es decir, su tamaño va a ser
 igual a 1 posiciones del tablero).
 Reutilize tanto código como sea posible del ejercicio 4 para hacer esta extensión del juego.
 No es necesario implementar el docString correspondiente a las funciones y métodos desarrollados,
