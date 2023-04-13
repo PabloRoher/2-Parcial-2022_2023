@@ -1,14 +1,16 @@
 package org.example;
 
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Battleship extends Ship{
 
-    List<Point> points;
+    List<Point> points = new ArrayList<>();
 
     public Battleship(int size, Point start, Point end, CardinalPoint direction) {
         super(size, start, end, direction);
+        System.out.println("Barco de combate creado");
     }
 
     public boolean getShot(Point shotPoint) {
@@ -19,14 +21,14 @@ public class Battleship extends Ship{
 
         if (shotPoint.x == startX && shotPoint.x == endX && shotPoint.y >= startY && shotPoint.y <= endY) {
             if (points.contains(shotPoint)) {
-                return false;
+                return true;
             } else {
                 points.add(shotPoint);
                 return true;
             }
         } else if (shotPoint.y == startY && shotPoint.y == endY && shotPoint.x >= startX && shotPoint.x <= endX) {
             if (points.contains(shotPoint)) {
-                return false;
+                return true;
             } else {
                 points.add(shotPoint);
                 return true;

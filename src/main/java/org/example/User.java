@@ -5,12 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class User {
-    private List<Ship> ships;
+    private List<Ship> ships = new ArrayList<>();
     private boolean alive;
 
     public User(List<Ship> ships) {
         try {
-            if (ships == null || ships.isEmpty()) {
+            if (ships == null) {
                 throw new IllegalArgumentException("Lista de barcos no valida");
             } else if (ships.size() > 3) {
                 throw new IllegalArgumentException("No puedes crear mas de 3 barcos");
@@ -48,6 +48,12 @@ public class User {
     public boolean attack(Point shotPoint, User user) {
         for (Ship ship : user.getShips()) {
             if (!ship.isSunk() && ship.getShot(shotPoint)) {
+                ship.addHit();
+                if (ship.isSunk()) {
+                    System.out.println("Tocado y hundido");
+                } else {
+                    System.out.println("Tocado");
+                }
                 return true;
             }
         }
