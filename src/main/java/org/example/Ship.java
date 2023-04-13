@@ -4,10 +4,10 @@ import java.awt.*;
 
 
 public class Ship {
-    private int size;
-    private Point start;
-    private Point end;
-    private int hits;
+    protected int size;
+    protected Point start;
+    protected Point end;
+    protected int hits;
     private CardinalPoint direction;
     public Ship(int size, Point start,Point end, CardinalPoint direction) {
         try {
