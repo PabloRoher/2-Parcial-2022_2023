@@ -10,7 +10,6 @@ public class Ship {
     protected int hits;
     private CardinalPoint direction;
     public Ship(int size, Point start,Point end, CardinalPoint direction) {
-        try {
             if (size < 1 || size > 5) {
                 throw new IllegalArgumentException("Tamaño del barco no valido");
             }
@@ -21,7 +20,7 @@ public class Ship {
                 this.hits = 0;
                 this.direction = direction;
             } else if (start.x == end.x && start.y <= end.y) {
-                if ((end.y - start.y) > size || (end.y - start.y) < size) {
+                if ((end.y - start.y) + 1 > size || (end.y - start.y) + 1 < size) {
                     throw new IllegalArgumentException("El tamaño del barco no coincide con la distancia entre los puntos");
                 } else {
                     this.size = size;
@@ -32,7 +31,7 @@ public class Ship {
                 }
 
             } else if (start.y == end.y && start.x <= end.x) {
-                if ((end.x - start.x) > size || (end.x - start.x) < size) {
+                if ((end.x - start.x) + 1 > size || (end.x - start.x) + 1 < size) {
                     throw new IllegalArgumentException("El tamaño del barco no coincide con la distancia entre los puntos");
                 } else {
                     this.size = size;
@@ -44,9 +43,6 @@ public class Ship {
             } else {
                 throw new IllegalArgumentException("Barco no valido");
             }
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
     }
 
     public Point getEndPoint() {
