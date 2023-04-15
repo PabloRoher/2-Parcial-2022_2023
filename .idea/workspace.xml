@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4335503-ea39-4249-a10b-837a38887cec" name="Changes" comment="Ejercicio5 finish">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" afterDir="false" />
+    <list default="true" id="a4335503-ea39-4249-a10b-837a38887cec" name="Changes" comment="Ejercicio6 finish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Battleship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Battleship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Canoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Canoe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Frigate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Frigate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShipTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Ordenador/OneDrive/Escritorio/Tecnicas de programacion/PruebaEvaluacionContinua1",
+    "last_opened_file_path": "C:/Users/Ordenador/OneDrive/Escritorio/Tecnicas de programacion/ejecicio7_2_parcial",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,7 +76,9 @@
       <workItem from="1681049733253" duration="629000" />
       <workItem from="1681119896186" duration="4778000" />
       <workItem from="1681124945691" duration="5436000" />
-      <workItem from="1681379587943" duration="16139000" />
+      <workItem from="1681379587943" duration="16652000" />
+      <workItem from="1681546797809" duration="4829000" />
+      <workItem from="1681586685302" duration="3484000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1680109485518</created>
@@ -114,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681384441428</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ejercicio6 finish">
+      <created>1681395927149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681395927149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,9 +126,13 @@
     <MESSAGE value="Ejercicio4 almost" />
     <MESSAGE value="Ejercicio4 finish" />
     <MESSAGE value="Ejercicio5 finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio5 finish" />
+    <MESSAGE value="Ejercicio6 finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio6 finish" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Parcial2$ShipTest.ic" NAME="ShipTest Coverage Results" MODIFIED="1681381661871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Parcial2$Main.ic" NAME="Main Coverage Results" MODIFIED="1681587241621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>
