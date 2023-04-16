@@ -14,7 +14,6 @@ public class ShipTest {
         Ship ship2 = new Ship(2, new Point(1, 1), new Point(1, 2), CardinalPoint.NORTH);
 
 
-        System.out.println(CardinalPoint.valueOf(direccion));
 
         Assertions.assertEquals(CardinalPoint.NORTH, ship.getDirection());
         Assertions.assertFalse(ship.getShot(new Point(0, 0)));
